@@ -60,7 +60,25 @@
 				</optgroup>
 			</select>
 	</div>
-	</fieldset>	
+	</fieldset>
+	<fieldset>
+		<legend>Ваши предпочтения</legend>
+		<div>
+			<label for="message">Введите текст вашего послания</label>
+			<textarea id="message" type="text" name="text" placeholder="Введите текст вашего послания"></textarea>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Информационные данные</legend>
+		<div>
+			<label for="news">Подписаться на новости:</label>
+			<input id="news" type="checkbox" name="news" checked="checked" />
+		</div>
+	</fieldset>
+	<div>
+		<input type="submit" name="submit" value="Отправить" />
+		<input type="reset" name="reset" value="Сбросить">
+	</div>
 	</form>
 
 </body>
