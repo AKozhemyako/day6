@@ -73,12 +73,17 @@
 				<option value="Яндекс"></option>
 			</datalist>
 		</div>
-		<p>Отправка фалов</p>
+		<p>Отправка файлов</p>
 		<dir>
 			<label for="file">Прикрепить файл:</label>
 			<input id="file" type="file" name="file">
 		</dir>
-		<p>Отправить форму</p>
+		<p>Выбор количества файлов</p>
+		<div>
+			<label for="count">Количество файлов:</label>
+			<input id="count" type="number" name="count" min="1" max="5">
+		</div>
+		<p>Кнопка отправки формы</p>
 		<div>
 			<input type="submit" name="submit" value="Отправить" />
 		</div>
