@@ -10,12 +10,26 @@
 <body>
 	<head>Шапка сайта обязательно в <b>header</b> теге сайта</head>
 	<h1>Form for registration</h1>
-	<form name="My form" action="java.script.js" method="post" enctype="multipart/form-data">
+	<form name="My form" action="java.script.js" method="post" enctype="multipart/form-data"/>
 		<fieldset>
-	<legend>Основные данные</legend>
+	<legend>Основные данные для регистрации</legend>
 	<div>
 		<label for="firstname">Введите ваше имя</label>
-		<input id="firstname" type="firstname" name="firstname" placeholder="Введите имя">
+		<input id="firstname" type="firstname" name="firstname" placeholder="Введите имя"/>
+	</div>
+	<div>
+		<label for="email">Введите ваш Е-маил</label>
+		<input id="email" type="mail" name="email" placeholder="Введите Е-маил">
+	</div>
+	<div>
+		<label for="password">Введите пароль</label>
+		<input id="password" type="password" name="password" placeholder="Введите пароль"/>
+		<label for="password">Повторите пароль</label>
+		<input id="password" type="password" name="password" placeholder="Повторите пароль"/>
+	</div>
+	<div>
+		<label for="phone">Введите № телефона</label>
+		<input id="phone" type="phone" name="phone" placeholder="Введите № телефона" />
 	</div>	
 	</form>
 
