@@ -11,6 +11,7 @@
 	
 	<h1>Формы регистрации</h1>
 	<form name="My form" action="java.script.js" method="post" enctype="multipart/form-data">
+	<fieldset>	
 		<div>
 			<label for="firstname">Ваше Имя:</label>
 			<input id="firstname" type="text" name="firstname" placeholder="Введите имя">
@@ -35,6 +36,8 @@
 			<label for="url">Ваш сайт:</label>
 			<input id="url" type="url" name="url" placeholder="Введите Ваш сайт">
 		</div>
+	</fieldset>
+	<fieldset>
 		<div>
 			<label>Ваш любимый цвет:</label>
 			<input type="radio" name="color" value="1"/>Красный
@@ -61,6 +64,8 @@
 			<input type="checkbox" name="pica" value="4"/>Tomato
 			<input type="checkbox" name="pica" value="5"/>Mushrooms
 		</div>
+	</fieldset>
+	<fieldset>
 		<div>
 			<label for="news">Подписаться на новости:</label>
 			<input id="news" type="checkbox" name="news" checked="checked" />
@@ -73,6 +78,8 @@
 				<option value="Яндекс"></option>
 			</datalist>
 		</div>
+	</fieldset>
+	<fieldset>
 		<p>Отправка файлов</p>
 		<dir>
 			<label for="file">Прикрепить файл:</label>
@@ -98,9 +105,12 @@
 			<label for="color">Выбор цвета:</label>
 			<input id="color" type="color" name="color"/>
 		</div>
+	</fieldset>
+	<fieldset>
 		<p><i>Добавление скрытых параметров видимых только программистам</i></p>
 		<input type="hidden" name="article_id" value="100">
-		
+	</fieldset>
+	<fieldset>
 		<p><b>Добавление поля для ввода большого текста</b></p>
 		<div>
 		<label for="message">Сообщение</label>
@@ -128,7 +138,7 @@
 				</optgroup>
 			</select>
 		</div>
-
+	</fieldset>
 		<p><b>Кнопка отправки или сброса формы</b></p>
 		<div>
 			<input type="submit" name="submit" value="Отправить" />
