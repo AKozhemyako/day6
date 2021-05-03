@@ -10,7 +10,7 @@
 	<head>Шапка сайта обязательно в <b>header</b> теге сайта</head>
 	
 	<h1>Формы регистрации</h1>
-	<form name="My form" action="java.script.js" method="post">
+	<form name="My form" action="java.script.js" method="post" enctype="multipart/form-data">
 		<div>
 			<label for="firstname">Ваше Имя:</label>
 			<input id="firstname" type="text" name="firstname" placeholder="Введите имя">
@@ -72,6 +72,15 @@
 				<option value="Google"></option>
 				<option value="Яндекс"></option>
 			</datalist>
+		</div>
+		<p>Отправка фалов</p>
+		<dir>
+			<label for="file">Прикрепить файл:</label>
+			<input id="file" type="file" name="file">
+		</dir>
+		<p>Отправить форму</p>
+		<div>
+			<input type="submit" name="submit" value="Отправить" />
 		</div>
 	</form>
 
