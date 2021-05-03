@@ -11,7 +11,8 @@
 	
 	<h1>Формы регистрации</h1>
 	<form name="My form" action="java.script.js" method="post" enctype="multipart/form-data">
-	<fieldset>	
+	<fieldset>
+	<legend>Основные данные</legend>	
 		<div>
 			<label for="firstname">Ваше Имя:</label>
 			<input id="firstname" type="text" name="firstname" placeholder="Введите имя">
@@ -38,6 +39,7 @@
 		</div>
 	</fieldset>
 	<fieldset>
+		<legend>Дополнительные данные</legend>
 		<div>
 			<label>Ваш любимый цвет:</label>
 			<input type="radio" name="color" value="1"/>Красный
@@ -66,6 +68,7 @@
 		</div>
 	</fieldset>
 	<fieldset>
+		<legend>Информационные данные</legend>
 		<div>
 			<label for="news">Подписаться на новости:</label>
 			<input id="news" type="checkbox" name="news" checked="checked" />
@@ -80,6 +83,7 @@
 		</div>
 	</fieldset>
 	<fieldset>
+		<legend>Работа с данными</legend>
 		<p>Отправка файлов</p>
 		<dir>
 			<label for="file">Прикрепить файл:</label>
@@ -107,10 +111,12 @@
 		</div>
 	</fieldset>
 	<fieldset>
+		<legend>Это для программистов</legend>
 		<p><i>Добавление скрытых параметров видимых только программистам</i></p>
 		<input type="hidden" name="article_id" value="100">
 	</fieldset>
 	<fieldset>
+		<legend>Работа с текстом и готовыми списками</legend>
 		<p><b>Добавление поля для ввода большого текста</b></p>
 		<div>
 		<label for="message">Сообщение</label>
